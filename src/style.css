@@ -17,7 +17,7 @@ a {
   margin: 45px auto;
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 30px 50px rgba(24, 18, 37, 0.2);
+  box-shadow: 0 30px 40px rgba(24, 18, 37, 0.6);
 }
 header {
   border-bottom: 1px solid #492755;
@@ -92,7 +92,8 @@ main {
 }
 .weather-forecast {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 .weather-forecast-date {
   text-align: center;
