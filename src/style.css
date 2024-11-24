@@ -9,7 +9,11 @@ a {
   color: #ba82d4;
 }
 .weather-app {
-  background-color: #5e2d7d;
+  background: linear-gradient(
+    180.2deg,
+    rgb(94, 45, 125) 6.8%,
+    rgb(39, 47, 78) 131%
+  );
   color: #fff;
   font-family: "Roboto", serif;
   font-weight: 100;
@@ -120,9 +124,9 @@ main {
   padding: 0 10px;
 }
 footer {
-  border-top: 1px solid #492755;
+  border-top: 1px solid #320657;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: #716e73;
 }
