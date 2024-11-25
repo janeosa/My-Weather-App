@@ -8,6 +8,30 @@ body {
 a {
   color: #ba82d4;
 }
+.theme-button {
+  display: block;
+  margin: 40px auto;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(70, 33, 93) 0%,
+    rgb(33, 33, 33) 100.2%
+  );
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 30px 40px rgba(24, 18, 37, 0.6);
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: lighter;
+  transition: all 200ms ease-in-out;
+}
+.theme-button:hover {
+  background: #4f226a;
+  color: #fff;
+  cursor: pointer;
+}
+
 .weather-app {
   background: linear-gradient(
     180.2deg,
@@ -54,11 +78,121 @@ header {
   font-weight: 100;
   font-size: 16px;
   margin-left: 5px;
+  transition: all 200ms ease-in-out;
+}
+.search-form-button:hover {
+  background-color: #492755;
+  color: #fff;
+  cursor: pointer;
 }
 main {
   padding: 20px 0;
 }
 
+.light {
+  background: linear-gradient(
+    90deg,
+    rgb(241, 249, 254) -16.9%,
+    rgb(172, 220, 238) 119.9%
+  );
+  color: #000;
+}
+.light a {
+  color: #9cd5f8;
+}
+.light .weather-app {
+  background: #fff;
+  color: #9d9c9c;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 1px 7px 6px #c9dee9;
+}
+.light h1 {
+  color: #000;
+}
+.light .weather-app-temperature-container {
+  color: #000;
+}
+.light header {
+  border-bottom: 1px solid #dbf0fd;
+  padding: 0 0 30px 0;
+}
+.light .search-form-input {
+  background-color: #f1f9fe;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+  width: 75%;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #9d9c9c;
+}
+
+.light .search-form-input::placeholder {
+  color: #9d9c9c;
+}
+.light .search-form-button {
+  background: #9cd5f8;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin-left: 5px;
+  transition: all 200ms ease-in-out;
+}
+.light .search-form-button:hover {
+  background-color: #8ebae3;
+  color: #fff;
+  cursor: pointer;
+}
+.light .theme-button {
+  display: block;
+  margin: 40px auto;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(156, 213, 248) 0%,
+    rgb(118, 156, 192) 100.2%
+  );
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 7px 6px rgba(118, 156, 192, 0.6);
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: lighter;
+  transition: all 200ms ease-in-out;
+}
+.light .theme-button:hover {
+  background: #769cc0;
+  color: #fff;
+  cursor: pointer;
+}
+.light .weather-app-details strong {
+  color: #f4bf1d;
+}
+.light .weather-forecast-temperatures {
+  text-align: center;
+  color: #9cbae4;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.light footer {
+  border-top: 1px solid #dbf0fd;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #9d9c9c;
+}
 .weather-app-data {
   display: flex;
   justify-content: space-between;

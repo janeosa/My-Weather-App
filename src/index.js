@@ -1,3 +1,10 @@
+function changetheme() {
+  let body = document.querySelector("body");
+  body.classList.toggle("light");
+}
+
+let themeButton = document.querySelector(".theme-button");
+themeButton.addEventListener("click", changetheme);
 function refreshWeather(response) {
   let temperatureElement = document.querySelector("#temperature");
   let temperature = response.data.temperature.current;
