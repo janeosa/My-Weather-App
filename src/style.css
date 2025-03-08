@@ -193,6 +193,13 @@ main {
   font-size: 14px;
   color: #9d9c9c;
 }
+.light .weather-forecast-date {
+  text-align: center;
+  color: #9d9c9c;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
 .weather-app-data {
   display: flex;
   justify-content: space-between;
