@@ -271,3 +271,33 @@ footer {
   font-size: 14px;
   color: #716e73;
 }
+
+@media (max-width: 600px) {
+  #search-form input {
+    width: 48%;
+  }
+  main {
+    width: 50%;
+  }
+  .weather-app-icon {
+    max-height: 55px;
+    max-width: 55px;
+  }
+  .weather-app-temperature {
+    font-size: 54px;
+  }
+  .weather-app-unit {
+    font-size: 20px;
+  }
+
+  .weather-forecast-icon {
+    max-height: 60px;
+    max-width: 60px;
+  }
+  .weather-forecast-temperature {
+    padding: 0 3px;
+  }
+  .weather-forecast-temperatures {
+    font-size: 13px;
+  }
+}
