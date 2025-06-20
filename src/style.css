@@ -276,18 +276,20 @@ footer {
   #search-form input {
     width: 48%;
   }
-  main {
-    width: 50%;
-  }
   .weather-app-icon {
     max-height: 55px;
     max-width: 55px;
   }
   .weather-app-temperature {
-    font-size: 54px;
+    font-size: 40px;
   }
   .weather-app-unit {
     font-size: 20px;
+    margin-top: 4px;
+  }
+
+  .weather-app-city {
+    font-size: 30px;
   }
 
   .weather-forecast-icon {
@@ -299,5 +301,12 @@ footer {
   }
   .weather-forecast-temperatures {
     font-size: 13px;
+  }
+
+  .weather-app {
+    padding: 20px;
+  }
+  .weather-forecast {
+    flex-wrap: wrap;
   }
 }
